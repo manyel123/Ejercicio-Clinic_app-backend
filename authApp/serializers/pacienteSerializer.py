@@ -8,7 +8,7 @@ class PacienteSerializer(serializers.ModelSerializer):
     historia = HistoriaSerializer()
     class Meta:
         model = Paciente
-        fields = ['id', 'document', 'name', 'email', 'fechaNacim', 'telefono', 'direccion', 'ciudad']
+        fields = ['id', 'document', 'name', 'email', 'fechaNacim', 'telefono', 'direccion', 'ciudad', 'historia']
 
     def create(self, validated_data):
         historiaData = validated_data.pop('historia')
