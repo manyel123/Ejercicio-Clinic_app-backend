@@ -14,6 +14,11 @@ class UserManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
+    def create_paciente(self):
+        paciente = self.model()
+        paciente.save(using=self._db)
+        return paciente       
+        
     def create_superuser(self, username, password):
         """
         Creates and saves a superuser with the given username and password.

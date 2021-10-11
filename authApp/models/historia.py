@@ -11,4 +11,4 @@ class Historia(models.Model):
     tratamientoFarmacol = models.CharField('Tratamiento farmacologico actual', max_length = 100)
     diagPrevio = models.CharField('Diagnostico previo', max_length = 100)
     diagActual = models.CharField('Diagnostico actual', max_length = 100)
-    observacion = models.TextField('Observaciones', max_length = 10000)
+    observacion = models.CharField('Observaciones', max_length = 10000)
