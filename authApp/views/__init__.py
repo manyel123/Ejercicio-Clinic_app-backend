@@ -1,4 +1,4 @@
 from .pacienteCreateView import PacienteCreateView
-from .pacienteView import PacienteView
+from .pacienteDetailView import PacienteDetailView
 from .userCreateView import UserCreateView
 from .userDetailView import UserDetailView

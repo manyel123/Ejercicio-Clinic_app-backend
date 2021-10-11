@@ -7,7 +7,7 @@ from rest_framework.permissions import IsAuthenticated
 from authApp.models.paciente import Paciente
 from authApp.serializers.pacienteSerializer import PacienteSerializer
 
-class PacienteView(generics.RetrieveAPIView):
+class PacienteDetailView(generics.RetrieveAPIView):
     queryset = Paciente.objects.all()
     serializer_class = PacienteSerializer
     permission_classes = (IsAuthenticated,)
