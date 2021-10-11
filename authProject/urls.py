@@ -8,5 +8,5 @@ urlpatterns = [
     path('user/', views.UserCreateView.as_view()),
     path('user/<int:pk>/', views.UserDetailView.as_view()),
     path('paciente/', views.PacienteCreateView.as_view()),
-    path('paciente/<int:pk>', views.PacienteCreateView.as_view()),
+    path('paciente/<int:pk>', views.PacienteDetailView.as_view()),
 ]
