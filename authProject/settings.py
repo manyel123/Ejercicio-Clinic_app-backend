@@ -103,11 +103,11 @@ WSGI_APPLICATION = 'authProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd9mcgdkqi32i0h',
-        'USER': 'uvskkuyehnqvyf',
-        'PASSWORD': '6c1e863761d9359434d2fe7e8ac3cfaff52383aa3e8c5a5e36a6b3cf61e16584',
-        'HOST': 'ec2-52-3-239-135.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
